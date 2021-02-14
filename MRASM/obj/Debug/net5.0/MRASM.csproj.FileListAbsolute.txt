@@ -1,0 +1,16 @@
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.exe
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.deps.json
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.runtimeconfig.json
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.runtimeconfig.dev.json
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.dll
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\ref\MRASM.dll
+C:\Users\gcter\RiderProjects\MRASM\MRASM\bin\Debug\net5.0\MRASM.pdb
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.csprojAssemblyReference.cache
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.AssemblyInfoInputs.cache
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.AssemblyInfo.cs
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.csproj.CoreCompileInputs.cache
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.dll
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\ref\MRASM.dll
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.pdb
+C:\Users\gcter\RiderProjects\MRASM\MRASM\obj\Debug\net5.0\MRASM.genruntimeconfig.cache

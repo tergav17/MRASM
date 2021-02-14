@@ -2,7 +2,7 @@
 
 namespace MRASM
 {
-    class Program
+    class MRASM
     {
         static void Main(string[] args)
         {
