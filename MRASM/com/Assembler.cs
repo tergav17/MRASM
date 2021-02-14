@@ -78,10 +78,21 @@ namespace MRASM.com {
             binary = binary + DecToAscii(27) + DecToAscii(2);
             if (error > 0) return error;
             
+            //Write binary string to file
+            Stream stream = new FileStream(fout, FileMode.Create);
+            BinaryWriter bw = new BinaryWriter(stream);
+
+            foreach (char ch in binary) {
+	            bw.Write(ch);
+            }
             
-            
+            bw.Flush();
+            bw.Close();
+
             return error;
         }
+        
+        
         
         //Processes a line of instruction
         private int ProcessLine(string line) {
@@ -290,7 +301,7 @@ namespace MRASM.com {
 					WriteByte(0x11, false);
 					WriteAddress(n.Value, n.Relocatable);
 				}
-			//In addition to loading from a constant, the "HL" register can also load from a constant pointer
+				//In addition to loading from a constant, the "HL" register can also load from a constant pointer
 			} else if (dest.Equals("HL")) {
 				string strip = StripPointer(src);
 				
@@ -300,8 +311,7 @@ namespace MRASM.com {
 					address = address + 3;
 					
 					//Bad numeric, return error if on second pass (due to possible later defined symbol)
-					if (n == null) { if (pass == 2) return 0x52;
-					else return 0; }
+					if (n == null) { if (pass == 2) return 0x52; else return 0; }
 					
 					if (pass == 2) {
 						WriteByte(0x21, false);
@@ -1047,7 +1057,7 @@ namespace MRASM.com {
         
         //Converts a simple integer, hexadecimal, or symbol into a numeric
         private Numeric ConvertNumeric(string num) {
-	        int value = 0;
+	        int value;
 	        int type = 1;
 	        bool relocatable = false;
 	        if (IsInteger(num)) {
